@@ -6,14 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ShopmeCommon" />
         <module name="shopmecommon" />
-        <module name="shopmefrontend" />
         <module name="shopmebackend" />
+        <module name="ShopmeBackEnd" />
+        <module name="shopmefrontend" />
+        <module name="ShopmeFrontEnd" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shopmebackend" target="1.8" />
+      <module name="shopmecommon" target="1.8" />
+      <module name="shopmefrontend" target="1.8" />
+      <module name="shopmewebparent" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ShopmeBackEnd" options="-parameters" />
+      <module name="ShopmeCommon" options="-parameters" />
+      <module name="ShopmeFrontEnd" options="-parameters" />
       <module name="shopmebackend" options="-parameters" />
       <module name="shopmecommon" options="-parameters" />
       <module name="shopmefrontend" options="-parameters" />
