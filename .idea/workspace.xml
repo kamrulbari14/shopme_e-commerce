@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5c373e3-262d-4345-a764-3f158c512863" name="Default Changelist" comment="admin home page initial design">
-      <change afterPath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/com/shopme/admin/user/RoleRepositoryTests.java" afterDir="false" />
+    <list default="true" id="f5c373e3-262d-4345-a764-3f158c512863" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/ShopmeBackEndApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/ShopmeBackEndApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/com/shopme/admin/user/RoleRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/com/shopme/admin/user/RoleRepositoryTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +88,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RoleRepositoryTests">
+  <component name="RunManager" selected="JUnit.RoleRepositoryTests.testCreateRestRoles">
     <configuration name="All in shopmebackend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeProject" />
       <option name="PACKAGE_NAME" value="" />
@@ -132,6 +128,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RoleRepositoryTests.testCreateRestRoles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopmeBackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopme.admin.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shopme.admin.user" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.user.RoleRepositoryTests" />
+      <option name="METHOD_NAME" value="testCreateRestRoles" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShopmeBackEndApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ShopmeBackEnd" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shopme.admin.ShopmeBackEndApplication" />
@@ -153,11 +165,13 @@
       <item itemvalue="JUnit.RoleRepositoryTests.testCreateFirstRole" />
       <item itemvalue="Spring Boot.ShopmeBackEndApplication" />
       <item itemvalue="Spring Boot.ShopmeFrontEndApplication" />
+      <item itemvalue="JUnit.RoleRepositoryTests.testCreateRestRoles" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RoleRepositoryTests" />
+        <item itemvalue="JUnit.RoleRepositoryTests.testCreateRestRoles" />
         <item itemvalue="JUnit.RoleRepositoryTests.testCreateFirstRole" />
+        <item itemvalue="JUnit.RoleRepositoryTests" />
         <item itemvalue="JUnit.All in shopmebackend" />
       </list>
     </recent_temporary>
@@ -183,7 +197,7 @@
       <workItem from="1646586273320" duration="89000" />
       <workItem from="1646673832629" duration="4215000" />
       <workItem from="1646844717551" duration="37000" />
-      <workItem from="1646850928920" duration="99000" />
+      <workItem from="1646850928920" duration="2583000" />
     </task>
     <task id="LOCAL-00001" summary="admin home page initial design">
       <created>1645208407050</created>
@@ -192,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645208407050</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="database connectivity and test">
+      <created>1646851232389</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646851232389</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +221,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="admin home page initial design" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin home page initial design" />
+    <MESSAGE value="database connectivity and test" />
+    <option name="LAST_COMMIT_MESSAGE" value="database connectivity and test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="74" key="#Project_Structure" timestamp="1646674076273">
@@ -223,34 +245,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1645037172549" />
-    <state x="264" y="9" key="CommitChangelistDialog2" timestamp="1646674212714">
+    <state x="264" y="9" key="CommitChangelistDialog2" timestamp="1646851231686">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="264" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1646674212714" />
-    <state x="147" y="64" key="DiffContextDialog" timestamp="1646674211922">
+    <state x="264" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1646851231686" />
+    <state x="147" y="64" key="DiffContextDialog" timestamp="1646851198376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="147" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1646674211922" />
-    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1646844752271">
+    <state x="147" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1646851198376" />
+    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1646851528231">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1646844752271" />
-    <state width="1493" height="532" key="GridCell.Tab.0.bottom" timestamp="1646851149810">
+    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1646851528231" />
+    <state width="1493" height="313" key="GridCell.Tab.0.bottom" timestamp="1646853555544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="532" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1646851149810" />
-    <state width="1493" height="532" key="GridCell.Tab.0.center" timestamp="1646851149809">
+    <state width="1493" height="313" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1646853555544" />
+    <state width="1493" height="313" key="GridCell.Tab.0.center" timestamp="1646853555544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="532" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1646851149809" />
-    <state width="1493" height="532" key="GridCell.Tab.0.left" timestamp="1646851149809">
+    <state width="1493" height="313" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1646853555544" />
+    <state width="1493" height="313" key="GridCell.Tab.0.left" timestamp="1646853555544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="532" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1646851149809" />
-    <state width="1493" height="532" key="GridCell.Tab.0.right" timestamp="1646851149810">
+    <state width="1493" height="313" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1646853555544" />
+    <state width="1493" height="313" key="GridCell.Tab.0.right" timestamp="1646853555544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="532" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1646851149810" />
+    <state width="1493" height="313" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1646853555544" />
     <state width="1493" height="482" key="GridCell.Tab.1.bottom" timestamp="1646678533301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -291,18 +313,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1646851028284" />
-    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1645208408702">
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1646851234977">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1645208408702" />
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1646851234977" />
     <state x="474" y="168" width="590" height="488" key="find.popup" timestamp="1646673984324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="474" y="168" width="590" height="488" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1646673984324" />
-    <state x="209" y="120" key="new project wizard" timestamp="1644580849688">
+    <state x="209" y="78" key="new project wizard" timestamp="1646851532891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="120" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1644580849688" />
+    <state x="209" y="78" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1646851532891" />
     <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1646678533322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
