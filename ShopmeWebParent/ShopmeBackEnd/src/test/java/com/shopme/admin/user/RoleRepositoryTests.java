@@ -9,7 +9,6 @@ import org.springframework.test.annotation.Rollback;
 
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -38,6 +37,6 @@ public class RoleRepositoryTests {
                 "and update order status");
         Role roleAssistant = new Role("Assistant", "Manage questions and reviews");
 
-        repo.saveAll(Collections.unmodifiableList(Arrays.asList(roleSalesPerson, roleEditor,roleShipper,roleAssistant)));
+        repo.saveAll(Collections.unmodifiableList(Arrays.asList(roleSalesPerson, roleEditor, roleShipper, roleAssistant)));
     }
 }
