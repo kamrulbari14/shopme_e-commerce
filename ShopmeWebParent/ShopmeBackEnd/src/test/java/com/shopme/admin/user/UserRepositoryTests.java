@@ -30,4 +30,51 @@ public class UserRepositoryTests {
         User savedUser = repo.save(user);
         assertThat(savedUser.getId()).isGreaterThan(0);
     }
+
+    @Test
+    public void testCreatNewUserWithTwoRoles() {
+        User user = new User("hasan123@gmail.com", "hello123", "Jahid", "Hasan");
+        Role roleEditor = new Role(3);
+        Role roleAssistant = new Role(5);
+        user.addRole(roleEditor);
+        user.addRole(roleAssistant);
+        User savedUser = repo.save(user);
+        assertThat(savedUser.getId()).isGreaterThan(0);
+    }
+
+    @Test
+    public void testListOfAllUser() {
+        Iterable<User> listUsers = repo.findAll();
+        listUsers.forEach(user -> System.out.println(user));
+    }
+
+    @Test
+    public void testGetUserById() {
+        User user = repo.findById(1).get();
+        System.out.println(user);
+        assertThat(user).isNotNull();
+    }
+
+    @Test
+    public void testUpdateUserDetails() {
+        User user = repo.findById(1).get();
+        user.setEnabled(true);
+        user.setEmail("helloo");
+        repo.save(user);
+    }
+
+    @Test
+    public void testUpdateUserRoles() {
+        User user = repo.findById(2).get();
+        user.getRoles().remove(new Role(3));
+        user.addRole(new Role(2));
+        repo.save(user);
+    }
+
+    @Test
+    public void testDeleteUserById() {
+        Integer userId = 2;
+        repo.deleteById(userId);
+
+    }
 }
