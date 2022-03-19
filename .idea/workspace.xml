@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5c373e3-262d-4345-a764-3f158c512863" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeCommon/src/main/java/com/shopme/common/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/com/shopme/admin/user/UserRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/com/shopme/admin/user/UserRepositoryTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="209" />
@@ -50,8 +54,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,17 +91,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.shopme.site" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Work Station\Shopme E-Commerce\ShopmeProject\ShopmeWebParent\ShopmeBackEnd\src\main\resources\templates" />
       <recent name="G:\Work Station\Shopme E-Commerce\ShopmeProject\ShopmeWebParent\ShopmeBackEnd\src\main\resources\static\images" />
       <recent name="G:\Work Station\Shopme E-Commerce\ShopmeProject\ShopmeWebParent\ShopmeFrontEnd\src\main\resources" />
     </key>
@@ -107,7 +112,23 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserRepositoryTests.testDeleteUserById">
+  <component name="RunManager" selected="JUnit.UserRepositoryTests.testCreatNewUserWithTwoRoles">
+    <configuration name="UserRepositoryTests.testCreatNewUserWithTwoRoles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopmeBackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shopme.admin.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shopme.admin.user" />
+      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.user.UserRepositoryTests" />
+      <option name="METHOD_NAME" value="testCreatNewUserWithTwoRoles" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserRepositoryTests.testDeleteUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeBackEnd" />
       <extension name="coverage">
@@ -135,22 +156,6 @@
       <option name="PACKAGE_NAME" value="com.shopme.admin.user" />
       <option name="MAIN_CLASS_NAME" value="com.shopme.admin.user.UserRepositoryTests" />
       <option name="METHOD_NAME" value="testGetUserById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTests.testListOfAllUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShopmeBackEnd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shopme.admin.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shopme.admin.user" />
-      <option name="MAIN_CLASS_NAME" value="com.shopme.admin.user.UserRepositoryTests" />
-      <option name="METHOD_NAME" value="testListOfAllUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -192,6 +197,8 @@
       <module name="ShopmeBackEnd" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shopme.admin.ShopmeBackEndApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -204,23 +211,35 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.ShopmeBackEndApplication" />
-      <item itemvalue="Spring Boot.ShopmeFrontEndApplication" />
-      <item itemvalue="JUnit.UserRepositoryTests.testListOfAllUser" />
       <item itemvalue="JUnit.UserRepositoryTests.testGetUserById" />
       <item itemvalue="JUnit.UserRepositoryTests.testUpdateUserDetails" />
       <item itemvalue="JUnit.UserRepositoryTests.testUpdateUserRoles" />
       <item itemvalue="JUnit.UserRepositoryTests.testDeleteUserById" />
+      <item itemvalue="Spring Boot.ShopmeBackEndApplication" />
+      <item itemvalue="Spring Boot.ShopmeFrontEndApplication" />
+      <item itemvalue="JUnit.UserRepositoryTests.testCreatNewUserWithTwoRoles" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRepositoryTests.testCreatNewUserWithTwoRoles" />
+        <item itemvalue="JUnit.UserRepositoryTests.testUpdateUserDetails" />
         <item itemvalue="JUnit.UserRepositoryTests.testDeleteUserById" />
         <item itemvalue="JUnit.UserRepositoryTests.testGetUserById" />
         <item itemvalue="JUnit.UserRepositoryTests.testUpdateUserRoles" />
-        <item itemvalue="JUnit.UserRepositoryTests.testUpdateUserDetails" />
-        <item itemvalue="JUnit.UserRepositoryTests.testListOfAllUser" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -247,7 +266,9 @@
       <workItem from="1647196178298" duration="4118000" />
       <workItem from="1647200902512" duration="143000" />
       <workItem from="1647281362919" duration="1612000" />
-      <workItem from="1647365184203" duration="1883000" />
+      <workItem from="1647365184203" duration="2028000" />
+      <workItem from="1647534180273" duration="116000" />
+      <workItem from="1647714761130" duration="2880000" />
     </task>
     <task id="LOCAL-00001" summary="admin home page initial design">
       <created>1645208407050</created>
@@ -277,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647201027387</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test cases written for crud operations">
+      <created>1647367187178</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647367187178</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +316,8 @@
     <MESSAGE value="database connectivity and test" />
     <MESSAGE value="create other roles with junit test case" />
     <MESSAGE value="create user table and a new user with junit test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="create user table and a new user with junit test case" />
+    <MESSAGE value="test cases written for crud operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="test cases written for crud operations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Assign_Data_Sources" timestamp="1647199469908">
@@ -303,10 +332,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="330" y="56" key="#ShopmeBackEndApplication/0.0.1536.824@0.0.1536.824" timestamp="1645037176672" />
-    <state x="223" y="70" width="1097" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647198498174">
+    <state x="223" y="70" width="1296" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647716397838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="70" width="1097" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1647198498174" />
+    <state x="223" y="70" width="1296" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1647716397838" />
     <state x="574" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1647366032241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -315,78 +344,78 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1645037172549" />
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1647201026352">
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1647367186593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1647201026352" />
-    <state x="147" y="64" key="DiffContextDialog" timestamp="1647201005446">
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1647367186593" />
+    <state x="147" y="64" key="DiffContextDialog" timestamp="1647367155190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="147" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1647201005446" />
+    <state x="147" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1647367155190" />
     <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1647281380042">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1647281380042" />
-    <state width="1485" height="58" key="GridCell.Tab.0.bottom" timestamp="1647367112431">
+    <state width="1485" height="158" key="GridCell.Tab.0.bottom" timestamp="1647717670433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="58" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1647367112431" />
-    <state width="1485" height="58" key="GridCell.Tab.0.center" timestamp="1647367112431">
+    <state width="1485" height="158" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1647717670433" />
+    <state width="1485" height="158" key="GridCell.Tab.0.center" timestamp="1647717670433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="58" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1647367112431" />
-    <state width="1485" height="58" key="GridCell.Tab.0.left" timestamp="1647367112431">
+    <state width="1485" height="158" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1647717670433" />
+    <state width="1485" height="158" key="GridCell.Tab.0.left" timestamp="1647717670433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="58" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1647367112431" />
-    <state width="1485" height="58" key="GridCell.Tab.0.right" timestamp="1647367112431">
+    <state width="1485" height="158" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1647717670433" />
+    <state width="1485" height="158" key="GridCell.Tab.0.right" timestamp="1647717670433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="58" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1647367112431" />
-    <state width="1485" height="311" key="GridCell.Tab.1.bottom" timestamp="1647288328588">
+    <state width="1485" height="158" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1647717670433" />
+    <state width="1485" height="332" key="GridCell.Tab.1.bottom" timestamp="1647717154047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="311" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1647288328588" />
-    <state width="1485" height="311" key="GridCell.Tab.1.center" timestamp="1647288328587">
+    <state width="1485" height="332" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1647717154047" />
+    <state width="1485" height="332" key="GridCell.Tab.1.center" timestamp="1647717154047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="311" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1647288328587" />
-    <state width="1485" height="311" key="GridCell.Tab.1.left" timestamp="1647288328587">
+    <state width="1485" height="332" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1647717154047" />
+    <state width="1485" height="332" key="GridCell.Tab.1.left" timestamp="1647717154047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="311" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1647288328587" />
-    <state width="1485" height="311" key="GridCell.Tab.1.right" timestamp="1647288328587">
+    <state width="1485" height="332" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1647717154047" />
+    <state width="1485" height="332" key="GridCell.Tab.1.right" timestamp="1647717154047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="311" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1647288328587" />
-    <state width="1485" height="311" key="GridCell.Tab.2.bottom" timestamp="1647288328588">
+    <state width="1485" height="332" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1647717154047" />
+    <state width="1485" height="311" key="GridCell.Tab.2.bottom" timestamp="1647716458322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="311" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1647288328588" />
-    <state width="1485" height="311" key="GridCell.Tab.2.center" timestamp="1647288328588">
+    <state width="1485" height="311" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1647716458322" />
+    <state width="1485" height="311" key="GridCell.Tab.2.center" timestamp="1647716458322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="311" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1647288328588" />
-    <state width="1485" height="311" key="GridCell.Tab.2.left" timestamp="1647288328588">
+    <state width="1485" height="311" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1647716458322" />
+    <state width="1485" height="311" key="GridCell.Tab.2.left" timestamp="1647716458322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="311" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1647288328588" />
-    <state width="1485" height="311" key="GridCell.Tab.2.right" timestamp="1647288328588">
+    <state width="1485" height="311" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1647716458322" />
+    <state width="1485" height="311" key="GridCell.Tab.2.right" timestamp="1647716458322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="311" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1647288328588" />
-    <state x="505" y="126" key="RollbackChangesDialog" timestamp="1647281770997">
+    <state width="1485" height="311" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1647716458322" />
+    <state x="505" y="126" key="RollbackChangesDialog" timestamp="1647714766775">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="505" y="126" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1647281770997" />
-    <state x="279" y="58" key="SettingsEditor" timestamp="1646851028284">
+    <state x="505" y="126" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1647714766775" />
+    <state x="279" y="0" key="SettingsEditor" timestamp="1647716355633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1646851028284" />
-    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1647201029112">
+    <state x="279" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1647716355633" />
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1647367189041">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1647201029112" />
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1647367189041" />
     <state x="653" y="289" width="378" height="255" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1647281583015">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

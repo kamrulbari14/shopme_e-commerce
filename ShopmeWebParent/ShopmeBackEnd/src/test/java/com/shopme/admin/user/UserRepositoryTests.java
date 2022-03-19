@@ -59,7 +59,7 @@ public class UserRepositoryTests {
     public void testUpdateUserDetails() {
         User user = repo.findById(1).get();
         user.setEnabled(true);
-        user.setEmail("helloo");
+        user.setEmail("kamrulbpriyo0523@gmail.com");
         repo.save(user);
     }
 
